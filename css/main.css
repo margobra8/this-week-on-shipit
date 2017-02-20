@@ -2,13 +2,18 @@
     font-weight: 600;
 }
 
+.header {
+    margin-bottom: 50px;
+}
+
 .project {
     margin-top: 20px;
 }
 
-.project:first-child {
-    margin-top: 25%;
+.project:last-child {
+    margin-bottom: 50px;
 }
+
 
 .ct {
     text-align: center;
@@ -47,9 +52,12 @@ img.thumbnail {
     right: 0px;
     transform: translateY(-50%);
     border-radius: 4px;
+    transition: ease 0.5s;
 }
 
 img.thumbnail:hover {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
