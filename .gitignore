@@ -1,2 +1,6 @@
 # ignore virtualenv
+
 env/
+
+# node
+node_modules/
