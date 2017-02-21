@@ -8,7 +8,7 @@ Will interact with the Slack API and pull the different links in the #shipit cha
 - [x] Frontend wireframing
 - [x] Frontend final mockup
 - [ ] Decide what backend to use (maybe Python)
-- [ ] Backend models ([peewee](https://github.com/coleifer/peewee))
+- [ ] Backend models (pymongo / python-sqlite3)
 - [ ] Slack API wrapper ([python-slack-client](https://github.com/slackapi/python-slackclient))
 - [ ] Setup webhooks (maybe unnecesary, only reading from channel)
 - [ ] GitHub API wrapper ([github-Flask](https://github.com/cenkalti/github-flask))
